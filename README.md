@@ -1,4 +1,4 @@
 # WebMarket-Project
 
 This is University Project about a Web-Market
-Contributors: Speedn, ByakkoLord, 
+Contributors: Deepsn, ByakkoLord, Marcos-Ara, Mateus T.
