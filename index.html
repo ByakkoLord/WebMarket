@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1.0, width=device-width">
+        <link rel="shortcut icon" href="" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css" media="">
+        <link rel="shortcut icon" href="assets/logoA.png" type="image/x-icon">
+        
+        <script defer src="js/itens.js"></script>
+        <script defer src="js/filters.js"></script>
+        <script defer src="js/products.js"></script>
+        <script defer src="js/slideshow.js"></script>
+        <script defer src="js/shoppingmenu.js"></script>
+        <script defer src="js/menu.js"></script>
+        <script defer src="js/search.js"></script>
+
+        <title>Supermercado A</title>
+    </head>
+
+    <body>
+        <div id="cart-anima">
+            <img src="assets/svg/shoppingcart.svg" alt="" id="cart-anima-img">
+        </div>
+        <header>
+            <img class="logo" src="assets/logoA.png">
+            
+            
+
+            <nav id="header-nav">
+                <section id="itens">
+                    <a href="#filter-container">Produtos</a>
+                    <a href="#promo-container">Promoções</a>
+                    <a href="#social-medias">Pagamento</a>
+                    <a href="#forms">Contato</a>
+                    <a href="#credits">Sobre nós</a>
+                    <img src="assets/svg/menu_FILL0_wght400_GRAD0_opsz48.svg" alt="" id="hamburg">
+                </section>
+                
+            </nav>
+                <button id="shoppingcart">
+                    <img src="assets/svg/shoppingcart.svg">
+                    <p></p>
+                </button>
+            
+
+            <!--<nav id="header-navbottom">
+                <section id="itens">
+                    <a href="#filter-container">Produtos</a>
+                    <a href="#promo-container">Promoções</a>
+                    <a href="#social-medias">Pagamento</a>
+                    <a href="#forms">Contato</a>
+                    <a href="#credits">Sobre nós</a>
+                    <img src="assets/svg/menu_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                </section>
+            </nav>-->
+
+            <section class="menu-hide" id="menu">
+                <a href="#filter-container">Produtos</a>
+                <a href="#promo-container">Promoções</a>
+                <a href="#social-media">Pagamento</a>
+                <a href="#forms">Contato</a>
+            </section>
+        </header>
+        
+
+        <main>
+            <section id="initial-banner">
+                <div class="banner">
+                    <img src="assets/banners/banner-principal-min.png" alt="" class="banner-img">
+                    <img src="assets/banners/carne.jpg" alt="" class="banner-img">
+                    <img src="assets/banners/qualy.jpg" alt="" class="banner-img">
+                    <img src="assets/banners/vinho-preto.jpg" alt="" class="banner-img">
+                    <img src="assets/banners/vinho.jpg" alt="" class="banner-img">
+                </div>
+                    
+                <div id="banner-buttons">
+                    <button class="buts" id="left-button"><img src="assets/svg/arrowback.svg" alt=""></button>
+                    <button class="buts" id="right-button"><img src="assets/svg/arrowforward.svg" alt=""></button>
+                </div>
+                    
+                <div id="hud-scroll">
+
+                </div>
+                
+            </section>
+
+            <section id="best-container">
+                <div id="titlebest">
+                    <h3>Melhores Preços</h3>
+                </div>
+                <section id="promo-container">
+                    <div class="promo-box">
+                        <div class="promo-img">
+                            <img src="assets/produtos/img38.png" alt="" class="promoimg-img">
+                        </div>
+                        <div class="promo-description">
+                            
+                        </div>
+                        <div class="promo-percent">
+                            <span>-10%</span>
+                        </div>
+                        <div class="promo-price">
+                            <span>R$4,99</span>
+                        </div>
+                    </div>
+                    <div class="promo-box">
+                        <div class="promo-img">
+                            <img src="assets/produtos/img39.png" alt="" class="promoimg-img">
+                        </div>
+                        <div class="promo-description">
+                            
+                        </div>
+                        <div class="promo-percent">
+                            <span>-15%</span>
+                        </div>
+                        <div class="promo-price">
+                            <span>R$2,99</span>
+                        </div>
+                    </div>
+                    <div class="promo-box">
+                        <div class="promo-img">
+                            <img src="assets/produtos/img37.png" alt="" class="promoimg-img">
+                        </div>
+                        <div class="promo-description">
+                            
+                        </div>
+                        <div class="promo-percent">
+                            <span>-15%</span>
+                        </div>
+                        <div class="promo-price">
+                            <span>R$2,99</span>
+                        </div>
+                    </div>
+                    <div class="promo-box">
+                        <div class="promo-img">
+                            <img src="assets/produtos/img36.png" alt="" class="promoimg-img">
+                        </div>
+                        <div class="promo-description">
+                            
+                        </div>
+                        <div class="promo-percent">
+                            <span>-15%</span>
+                        </div>
+                        <div class="promo-price">
+                            <span>R$2,99</span>
+                        </div>
+                    </div>
+                    <div class="promo-box">
+                        <div class="promo-img">
+                            <img src="assets/produtos/img35.png" alt="" class="promoimg-img">
+                        </div>
+                        <div class="promo-description">
+                            
+                        </div>
+                        <div class="promo-percent">
+                            <span>-15%</span>
+                        </div>
+                        <div class="promo-price">
+                            <span>R$2,99</span>
+                        </div>
+                    </div>
+                    <div class="promo-box">
+                        <div class="promo-img">
+                            <img src="assets/produtos/img33.png" alt="" class="promoimg-img">
+                        </div>
+                        <div class="promo-description">
+                            
+                        </div>
+                        <div class="promo-percent">
+                            <span>-15%</span>
+                        </div>
+                        <div class="promo-price">
+                            <span>R$2,99</span>
+                        </div>
+                    </div>
+            
+                
+                </section>
+            </section>
+
+            <section class="content-container">
+                <section id="buy-container">
+                    <div class="titles">
+                        <h2>Produtos</h2>
+                        <section id="search-cont">
+                            <input id="searchbox" type="text" placeholder="O que deseja?">
+                            <div id="search-drop">
+                                <h4>Caipirinha</h4>
+                                <h4>Caipirinha</h4>
+                                <h4>Caipirinha</h4>
+                                <h4>Caipirinha</h4>
+                                <h4>Caipirinha</h4>
+                                
+                            </div>
+                        </section>
+                        
+                    </div>
+                    
+                    <section id="filter-container">
+                        <div class="dropdown">
+                            <div class="dropdown-title">
+                                <h3>Categorias</h3>
+                                <img src="assets/svg/expand_more_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                            </div>
+                            
+                            <section class="dropdown-content">
+                                <div class="dropdown-button">
+                                    <input id="btn_carnes" type="checkbox" name="dropdown-buttons-1">
+                                    <label for="btn_carnes">Carnes</label>
+                                </div>
+
+                                <div class="dropdown-button">
+                                    <input id="btn_bebidas" type="checkbox" name="dropdown-buttons-1">
+                                    <label for="btn_bebidas">Bebidas</label>
+                                </div>
+
+                                <div class="dropdown-button">
+                                    <input id="btn_vegetais" type="checkbox" name="dropdown-buttons-1">
+                                    <label for="btn_vegetais">Verduras e Legumes</label>
+                                </div>
+                                <div class="dropdown-button">
+                                    <input id="btn_margarinas" type="checkbox" name="dropdown-buttons-1">
+                                    <label for="btn_margarinas">Margarinas</label>
+                                </div>
+                                <div class="dropdown-button">
+                                    <input id="btn_graos" type="checkbox" name="dropdown-buttons-1">
+                                    <label for="btn_graos">Grãos</label>
+                                </div>
+                                <div class="dropdown-button">
+                                    <input id="btn_temperos" type="checkbox" name="dropdown-buttons-1">
+                                    <label for="btn_temperos">Temperos</label>
+                                </div>
+                                <div class="dropdown-button">
+                                    <input id="btn_doces" type="checkbox" name="dropdown-buttons-1">
+                                    <label for="btn_doces">Doces</label>
+                                </div>
+                                <div class="dropdown-button">
+                                    <input id="btn_higiene" type="checkbox" name="dropdown-buttons-1">
+                                    <label for="btn_higiene">Higiene e Limpeza</label>
+                                </div>
+                                <div class="dropdown-button">
+                                    <input id="btn_frutas" type="checkbox" name="dropdown-buttons-1">
+                                    <label for="btn_frutas">Frutas</label>
+                                </div>
+                                <div class="dropdown-button">
+                                    <input id="btn_peixes" type="checkbox" name="dropdown-buttons-1">
+                                    <label for="btn_peixes">Peixes e Derivados</label>
+                                </div>
+                                
+                            </section>
+                        </div>
+
+                        <div class="dropdown">
+                            <div class="dropdown-title">
+                                <h3>Valores</h3>
+                                <img src="assets/svg/expand_more_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                            </div>
+                            
+                            <section class="dropdown-content">
+                                <div class="dropdown-button">
+                                    <input id="btn_price1" type="radio" name="dropdown-buttons-2">
+                                    <label for="btn_price1">R$0,99 à R$9,99</label>
+                                </div>
+
+                                <div class="dropdown-button">
+                                    <input id="btn_price2" type="radio" name="dropdown-buttons-2">
+                                    <label for="btn_price2">R$9,99 à R$49,99</label>
+                                </div>
+
+                                <div class="dropdown-button">
+                                    <input id="btn_price3" type="radio" name="dropdown-buttons-2">
+                                    <label for="btn_price3">R$49,99 à R$99,99</label>
+                                </div>
+                            </section>
+                        </div>
+
+                        <div class="dropdown">
+                            <div class="dropdown-title">
+                                <h3>Ordenar</h3>
+                                <img src="assets/svg/expand_more_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                            </div>
+                            
+                            <section class="dropdown-content">
+                                <div class="dropdown-button">
+                                    <input id="btn_sort1" type="radio" name="dropdown-buttons-3">
+                                    <label for="btn_sort1">A - Z</label>
+                                </div>
+
+                                <div class="dropdown-button">
+                                    <input id="btn_sort2" type="radio" name="dropdown-buttons-3">
+                                    <label for="btn_sort2">Caro - Barato</label>
+                                </div>
+
+                                <div class="dropdown-button">
+                                    <input id="btn_sort3" type="radio" name="dropdown-buttons-3">
+                                    <label for="btn_sort3">Barato - Caro</label>
+                                </div>
+                            </section>
+                        </div>
+                    </section>
+
+                    <section id="buy-section">
+                        <div class="buy-box-template">
+                            <div class="img-buybox">
+                                <img src="assets/produtos/img15.png" alt="" class="buy-img">
+                                
+                            </div>
+
+                            <div class="description">
+                                <h3>
+                                    
+                                </h3>
+                                <h4>
+                                    
+                                </h4>
+                                <p>
+                                    
+                                </p>
+                            </div>
+
+                            <div class="div-add-button">
+                                <button class="add-button"><img src="assets/svg/add_FILL0_wght400_GRAD0_opsz48.svg" alt=""></button>
+                            </div>
+                        </div>
+
+                        
+                    </section>
+                    
+                    <!---
+
+                    <section id="pages-product-buttons-sec">
+                        <button class="pages-product-buttons" id="pages-product-leftbutton"><img src="assets/svg/arrowback.svg" alt=""></button>
+                        <button class="pages-product-buttons" id="pages-product-rightbutton"><img src="assets/svg/arrowforward.svg" alt=""></button>
+                    </section>
+                -->
+                    
+                </section>
+                <section id="show-product">
+                    <div id="show-image">
+                        <img src="" alt="" class="show-product-image">
+                    </div>
+                    <div id="show-product-price">
+                        <h3></h3>
+                    </div>
+                    <section id="show-description">
+                        <h3></h3>
+                    </section>
+                    
+                    <button id="show-button">
+                            Adicionar ao Carrinho
+                    </button>
+                    
+                    
+                </section>
+                    
+            </section>
+
+            <section id="cart">
+                <h3>Carrinho</h3>
+                <article id="cart-products-template">
+                    <div class="cart-img-products">
+                        <img src="" alt="" class="image-carts">
+                    </div>
+                    <p></p>
+                    <span id="price"></span>
+                    <span id="qnt"></span>
+                    <button class="delete-singular"><img src="assets/svg/close_FILL0_wght400_GRAD0_opsz48.svg" alt=""></button>
+                    <button class="updown-buttons" id="up-qnt-button"><img src="assets/svg/expand_less_FILL0_wght400_GRAD0_opsz48.svg" alt=""></button>
+                    <button class="updown-buttons" id="down-qnt-button"><img src="assets/svg/expand_more_FILL0_wght400_GRAD0_opsz48.svg" alt=""></button>
+                </article>
+                <article id="cart-products">
+                    <div class="cart-img-products">
+                        <img src="" alt="" class="image-carts">
+                    </div>
+                    <button class="updown-buttons" id="up-qnt-button"><img src="assets/svg/expand_less_FILL0_wght400_GRAD0_opsz48.svg" alt=""></button>
+                    <button class="updown-buttons" id="down-qnt-button"><img src="assets/svg/expand_more_FILL0_wght400_GRAD0_opsz48.svg" alt=""></button>
+                    <p></p>
+                    <span></span>
+                    <button class="delete-singular"><img src="assets/svg/close_FILL0_wght400_GRAD0_opsz48.svg" alt=""></button>
+                </article>
+                <div id="delete-all">
+                    <button><img src="assets/svg/delete_FILL0_wght400_GRAD0_opsz48.svg" alt="" id="trash-img"></button>
+                </div>
+            </section>
+            
+        </main>
+
+        
+
+        <footer>
+            <section id="forms">
+                <h2>Contato</h2>
+            <form>
+                <div class="form-box">
+                    Nome:<br><input id="name" type="text" required>
+                </div>
+                <div class="form-box">
+                    E-mail:<br><input id="email" type="email" required>
+                </div>
+                <div class="form-box">
+                    Assunto:<br><input id="subject" type="text" required>
+                </div>
+                <div class="form-box">
+                    Mensagem:<br><textarea id="msg" cols="30" rows="10"></textarea>
+                </div>
+
+                <button type="submit" id="submit">Enviar</button>
+    
+            </form>
+            </section>
+
+            <section id="medias">
+                <img class="logo" src="" alt="">
+        </section>
+        <section id="all-info">
+            <div class="block-info">
+                <h2>Lorem</h2>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+            <div class="block-info">
+                <h2>Lorem</h2>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+            <div class="block-info">
+                <h2>Lorem</h2>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+            <div class="block-info">
+                <h2>Lorem</h2>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+            <div id="pay-block">
+                <h2>Formas de Pagamento</h2>
+                <p>Preços e formas de pagamento são exclusivos para vendas via internet.</p>
+                <div id="pay-block-img">
+                    <img src="assets/cards/flag_visa.svg" alt="">
+                    <img src="assets/cards/flag_amex.svg" alt="">
+                    <img src="assets/cards/flag_diners.svg" alt="">
+                    <img src="assets/cards/flag_elo.svg" alt="">
+                    <img src="assets/cards/flag_hipercard.svg" alt="">
+                    <img src="assets/cards/flag_jcb.svg" alt="">
+                    <img src="assets/cards/flag_mastercard.svg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="social-medias">
+            <img src="assets/svg/logo-linkedin.svg" alt="" class="media-logos">
+            <img src="assets/svg/logo-instagram.svg" alt="" class="media-logos">
+            <img src="assets/svg/logo-facebook.svg" alt="" class="media-logos">
+        </section>
+
+            <section id="credits">
+                Guilherme F. | RGM: 34103856<br>
+                Nicolas A. | RGM: 32978219<br>
+                Matheus T. | RGM: 34185291<br>
+                Marcos A. | RGM: 33712816<br>
+                Supermercado A&trade; - Todos direitos reservados &copy;
+            </section>
+            
+        </footer>
+
+    </body>
+</html>
+
